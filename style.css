@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, cursive;
+    
+}
+.carousel-item img {
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+  }
+.color a:hover{
+background-color: orangered;
+}
+.orange{
+   color:  orangered;
+   
+}
+.fa-3x , .fa-2x{
+    padding: 20px;
+    border-radius: 50%;    
+    background-color: orangered;
+}
+.fa-3x:hover{
+    background-color: orangered;
+}
+.size{
+    width: 40%;
+}
+.block_services {
+    position: relative;
+    /* top: -58px; */
+    background: #fff;
+    padding: 55px 10px;
+    /* border: 1px solid #ccc; */
+    bottom: 62px;
+}
+.bg{
+    position: relative;
+    background-color: orangered;
+    line-height: 20px;
+    top: -110px;
+}
+
+@media screen and (max-width: 990px) {
+    .size{
+        width: auto;
+    }
+}
